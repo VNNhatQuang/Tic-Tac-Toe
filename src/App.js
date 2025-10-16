@@ -53,8 +53,6 @@ export default function App() {
 
     function handlePlay(nextSquares) { // Xử lý khi có nước đi mới
         setHistory([...history, nextSquares]);
-        console.log(nextSquares);
-
         setXIsNext(!xIsNext);
     }
 
